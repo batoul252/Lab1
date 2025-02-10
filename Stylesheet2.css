@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #34495e;
+}
+
+h1, h2, h3 {
+    color: #5947be;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ul li {
+    background-color: #b2b4b6;
+    color: white;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left; /* تغيير النص ليكون محاذياً لليسار */
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #ecf0f1;
+    border-left: 5px solid #3498db; /* نفس التأثير المستخدم في الـ h3 */
+    list-style-type: disc; /* يعرض قائمة نقطية مثل الـ ul */
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px; /* إضافة حواف مدورة */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+a {
+    color: #0f0808;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+h3 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 30px auto;
+}
